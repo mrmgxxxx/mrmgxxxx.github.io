@@ -2,7 +2,7 @@ title: mrmgxxxx's Blogs
 description: mrmgxxxx's Blogs
 show_downloads: true
 
-baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+baseurl: "/blogs" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://mrmgxxxx.github.io" # change this to the base hostname & protocol for your site
 
 
