@@ -24,7 +24,7 @@ sass:
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: mrmgxxxx's blogs
-description: "just blogs and shits."
+description: "苟利国家生死以，岂因福祸避趋之。"
 keywords: 'jekyll,theme,gem-based,blog'
 author:
   name:
@@ -36,7 +36,7 @@ author:
       url: https://github.com/mrmgxxxx
 home:
   section1: <h1>mrmgxxxx's blogs</h1>
-  section2: <h2>just blogs and shits.</h2>
+  section2: <h2>苟利国家生死以，岂因福祸避趋之</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/mrmgxxxx" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
