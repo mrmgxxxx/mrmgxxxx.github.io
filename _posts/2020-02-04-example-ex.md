@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "示例标题"
+title: "示例标题test"
 description: "文章描述"
 categories: [文章种类]
 tags: [标签1, 标签2]
@@ -26,8 +26,3 @@ redirect_from:
 func main() {
 }
 {% endhighlight %}
-
-[^1]: This is a footnote.
-
-[kramdown]: https://kramdown.gettalong.org/
-[Simple Texture]: https://github.com/yizeng/jekyll-theme-simple-texture
