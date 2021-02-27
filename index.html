@@ -7,6 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+        <script type="text/javascript">
+            function leaveMessage() {
+                alert("✉️ Message Sent Successfully.")
+            }
+        </script>
 	</head>
 
 	<body class="is-preload">
@@ -70,27 +76,19 @@
 								<h2 class="major">Contact</h2>
 								<form method="post" action="#">
 									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
 										<div class="field">
-											<label for="message">Message</label>
+											<label for="message">Leave me a message</label>
 											<textarea name="message" id="message" rows="4"></textarea>
 										</div>
 									</div>
 
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
+										<li><input type="submit" value="Send Message" class="primary" onclick="leaveMessage()" /></li>
 									</ul>
 								</form>
 
 								<ul class="icons">
+									<li><a href="http://mrmgxxxx.io" class="icon brands fa-blog"><span class="label">Blog</span></a></li>
 									<li><a href="mailto:melo_0217@163.com" class="icon brands fa-mailchimp"><span class="label">Email</span></a></li>
 									<li><a href="https://github.com/mrmgxxxx/mrmgxxxx.github.io" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
